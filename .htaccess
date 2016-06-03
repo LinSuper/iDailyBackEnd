@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	
+	RewriteRule ^user/([a-z0-9A-Z]+)$ service/user.php/$1
+	RewriteRule ^post/([a-z0-9A-Z]+)$ service/post.php/$1
+
+	
+	
+</IfModule>
